@@ -4713,7 +4713,7 @@
     },
     "osdDescElementCameraFrame": {
         "message": "Adds an adjustable outline element designed to represent the field of view of the pilot's HD camera for visual framing.<br><br>You can adjust the width and height in CLI with 'osd_camera_frame_width' and 'osd_camera_frame_height'"
-    },    
+    },
     "osdTextElementEfficiency": {
         "message": "Battery efficiency",
         "description": "One of the elements of the OSD"
@@ -4721,7 +4721,13 @@
     "osdDescElementEfficiency": {
         "message": "Instantaneous battery consumption in mAh/distance.  (Requires valid GPS fix)"
     },
-    
+    "osdTextElementMahPercent": {
+        "message": "Mah percent",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementMahPercent": {
+        "message": "Shows the mah used out of the configured capacity"
+    },
     "osdTextElementUnknown": {
         "message": "Unknown $1",
         "description": "One of the elements of the OSD"

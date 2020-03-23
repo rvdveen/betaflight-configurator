@@ -1131,6 +1131,15 @@ OSD.loadDisplayFields = function() {
                 return `1234${FONT.symbol(SYM.MAH)}/${FONT.symbol(osdData.unit_mode === 0 ? SYM.MILES : SYM.KM)}`;
             },
         },
+        MAH_PERCENT: {
+            name: 'OSD_MAH_PERCENT',
+            text: 'osdTextElementMahPercent',
+            desc: 'osdDescElementMahPercent',
+            default_position: -1,
+            draw_order: 455,
+            positionable: true,
+            preview: '100',
+        },
 
     };
 };
@@ -1541,6 +1550,7 @@ OSD.chooseFields = function () {
                                                         F.RC_CHANNELS,
                                                         F.CAMERA_FRAME,
                                                         F.OSD_EFFICIENCY,
+                                                        F.MAH_PERCENT,
                                                     ]);
                                                 }
                                             }
